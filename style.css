@@ -1,0 +1,150 @@
+body {
+    background-image: linear-gradient(rgba(86, 76, 94, 0.5), rgba(214, 196, 243, 0.05)), url(../Lancer-de-des/images/wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding-left: 40px;
+}
+
+header .home-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+h1 {
+    margin: 40px 20px 20px 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #f9e9fb;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    margin: 20px;
+    font-family: 'Handlee', cursive;
+    color: #f9e9fb;
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: start;
+    padding: 0;
+    margin: 30px 0;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #f9e9fb;
+    font-size: 20px;
+}
+
+nav a:hover {
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: #c382c8;
+}
+
+.tirage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    margin-top: 80px;
+}
+
+.simulator {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total {
+    background-color: white;
+    color: #c382c8;
+    font-size: 150px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(67, 66, 66);
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+    color: #f9e9fb;
+    font-size: 20px;
+    padding: 10px;
+}
+
+input {
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin: 20px;
+    background-color: #c382c8;
+    color: white;
+}
+
+input:hover {
+    background-color: #c098c3;
+}
+
+/***** RWD *****/
+
+@media all and (max-width:900px) {
+    body {
+        padding: 0;
+    }
+    header .home-title {
+        align-items: center;
+    }
+    nav ul {
+        justify-content: center;
+    }
+    nav a {
+        margin: 20px;
+        padding: 0;
+    }
+}
+
+@media all and (max-width:680px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav li {
+        margin: 10px;
+    }
+    .simulator {
+        margin: 0;
+        width: auto;
+    }
+}
+
+@media all and (max-width:400px) {
+    .home-title h1 {
+        font-size: 40px;
+    }
+    nav ul {
+        margin: 0;
+    }
+}
