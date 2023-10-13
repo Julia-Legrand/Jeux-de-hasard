@@ -1,0 +1,244 @@
+/***** COLORS *****/
+/***** INDEX *****/
+.indexBody {
+  background-image: url(../images/wallpaper1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.indexMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.indexMain .home-title-index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.indexMain .home-title-index h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #f9e9fb;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10px;
+}
+.indexMain .home-title-index h2 {
+  font-family: "Handlee", cursive;
+  color: #f9e9fb;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+}
+.indexMain .games {
+  display: flex;
+  justify-content: center;
+  margin: 28px;
+}
+.indexMain .games .diceGame, .indexMain .games .ballGame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  margin: 30px;
+  background-color: #f9e9fb;
+  border-radius: 50%;
+}
+.indexMain .games .diceGame a, .indexMain .games .ballGame a {
+  text-decoration: none;
+  font-family: "Handlee", cursive;
+  color: #4D4664;
+  font-size: 40px;
+  text-align: center;
+}
+.indexMain .games .diceGame a:hover, .indexMain .games .ballGame a:hover {
+  color: #c382c8;
+}
+
+/***** DICE GAME *****/
+.diceBody {
+  background-image: linear-gradient(rgba(41, 34, 49, 0.9), rgba(3, 2, 3, 0.1)), url(../images/wallpaper2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home-title-dice {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 50px;
+}
+.home-title-dice h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #f9e9fb;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10px;
+}
+.home-title-dice h2 {
+  font-family: "Handlee", cursive;
+  color: #f9e9fb;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+}
+
+.navDice ul {
+  display: flex;
+  justify-content: start;
+  margin: 20px 0;
+  padding-left: 50px;
+}
+.navDice li {
+  list-style: none;
+}
+.navDice a {
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #f9e9fb;
+  font-size: 20px;
+}
+.navDice a:hover {
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  color: #c382c8;
+}
+
+.tirage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  margin-top: 10px;
+}
+.tirage h2 {
+  font-family: "Handlee", cursive;
+  color: #f9e9fb;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+}
+
+.simulator {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.total {
+  background-color: white;
+  color: #c382c8;
+  font-size: 150px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(67, 66, 66);
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-family: "Montserrat", sans-serif;
+  color: #f9e9fb;
+  font-size: 20px;
+  padding: 10px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  margin: 10px;
+  background-color: #c382c8;
+  color: white;
+}
+
+input:hover {
+  background-color: #c098c3;
+}
+
+/***** BALL GAME *****/
+.ballBody {
+  background-image: linear-gradient(rgba(41, 34, 49, 0.9), rgba(3, 2, 3, 0.1)), url(../images/wallpaper3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ballMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ballMain .home-title-ball {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ballMain .home-title-ball h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #f9e9fb;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10px;
+}
+.ballMain .home-title-ball h2 {
+  font-family: "Handlee", cursive;
+  color: #f9e9fb;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+}
+.ballMain .formBall {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/***** FOOTER *****/
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  color: #4D4664;
+}
+footer .copyrights {
+  margin: 10px 20px 5px 20px;
+}
+footer .contact-details {
+  display: flex;
+  margin: 10px 20px 5px 20px;
+}
+footer .contact-details .mail, footer .contact-details .phoneNumber {
+  display: flex;
+  margin: 0 40px;
+}
+footer .contact-details .mail i, footer .contact-details .phoneNumber i {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+footer .socials {
+  margin: 10px 20px 5px 20px;
+}
+footer .socials a {
+  color: #4D4664;
+  margin-left: 10px;
+}/*# sourceMappingURL=style.css.map */

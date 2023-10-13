@@ -1,0 +1,16 @@
+@mixin title1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #f9e9fb;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px;
+}
+
+@mixin title2 {
+    font-family: 'Handlee', cursive;
+    color: #f9e9fb;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}

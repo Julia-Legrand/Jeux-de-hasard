@@ -1,0 +1,221 @@
+@import 'variables';
+@import 'mixins';
+
+/***** INDEX *****/
+
+.indexBody {
+    background-image: url(../images/wallpaper1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.indexMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        .home-title-index {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+                h1 {
+                    @include title1;
+                }
+                h2 {
+                    @include title2;
+                }
+        }
+        .games {
+            display: flex;
+            justify-content: center;
+            margin: 28px;
+                .diceGame, .ballGame {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 300px;
+                    width: 300px;
+                    margin: 30px;
+                    background-color: $lightpurple;
+                    border-radius: 50%;
+                        a {
+                            text-decoration: none;
+                            font-family: 'Handlee', cursive;
+                            color: $darkpurple;
+                            font-size: 40px;
+                            text-align: center;
+                        }
+                        a:hover {
+                            color: $middlepurple;
+                        }
+                }
+        }
+}
+
+/***** DICE GAME *****/
+
+.diceBody {
+    background-image: linear-gradient(rgba(41, 34, 49, 0.9), rgba(3, 2, 3, 0.1)), url(../images/wallpaper2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-title-dice {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 50px;
+        h1 {
+            @include title1;
+        }
+        h2 {
+            @include title2;
+        }
+}
+
+.navDice {
+    ul {
+        display: flex;
+        justify-content: start;
+        margin: 20px 0;
+        padding-left: 50px;
+    }
+    li {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+        margin: 10px;
+        padding: 10px;
+        font-family: 'Montserrat', sans-serif;
+        color: $lightpurple;
+        font-size: 20px;
+    }
+    a:hover {
+        border-radius: 10px;
+        border: none;
+        background-color: white;
+        color: $middlepurple;
+    }
+}
+
+.tirage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    margin-top: 10px;
+        h2 {
+            @include title2;
+        }
+}
+
+.simulator {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total {
+    background-color: white;
+    color: $middlepurple;
+    font-size: 150px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(67, 66, 66);
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+    color: #f9e9fb;
+    font-size: 20px;
+    padding: 10px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    background-color: $middlepurple;
+    color: white;
+}
+
+input:hover {
+    background-color: #c098c3;
+}
+
+/***** BALL GAME *****/
+
+.ballBody {
+    background-image: linear-gradient(rgba(41, 34, 49, 0.9), rgba(3, 2, 3, 0.1)), url(../images/wallpaper3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ballMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        .home-title-ball {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+                h1 {
+                    @include title1;
+                }
+                h2 {
+                    @include title2;
+                }
+        }
+        .formBall {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+}
+
+/***** FOOTER *****/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: $darkpurple;
+        .copyrights {
+            margin: 10px 20px 5px 20px;
+        }
+        .contact-details {
+            display: flex;
+            margin: 10px 20px 5px 20px;
+                .mail, .phoneNumber {
+                    display: flex;
+                    margin: 0 40px;
+                }
+                .mail i, .phoneNumber i {
+                    margin-top: 5px;
+                    margin-right: 10px;
+                }
+        }
+        .socials {
+            margin: 10px 20px 5px 20px;
+                a {
+                    color: $darkpurple;
+                    margin-left: 10px;
+                }
+        }
+}
