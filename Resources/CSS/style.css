@@ -35,7 +35,7 @@
 .indexMain .games {
   display: flex;
   justify-content: center;
-  margin: 28px;
+  margin: 10px;
 }
 .indexMain .games .diceGame, .indexMain .games .ballGame {
   display: flex;
@@ -43,7 +43,7 @@
   align-items: center;
   height: 300px;
   width: 300px;
-  margin: 30px;
+  margin: 50px;
   background-color: #f9e9fb;
   border-radius: 50%;
 }
@@ -163,7 +163,7 @@ input {
   border: none;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  margin: 10px;
+  margin: 12px;
   background-color: #c382c8;
   color: white;
 }
@@ -206,10 +206,47 @@ input:hover {
   text-align: center;
   margin: 10px;
 }
-.ballMain .formBall {
+.ballMain .form-ball {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  height: 46vh;
+  margin: 50px 0;
+}
+.ballMain .submit {
+  display: flex;
   justify-content: center;
+}
+.ballMain .response {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 400px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Handlee", cursive;
+  background-color: white;
+  color: #4D4664;
+}
+.ballMain .ifempty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 400px;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Handlee", cursive;
+  background-color: white;
+  color: #4D4664;
 }
 
 /***** FOOTER *****/
@@ -219,6 +256,7 @@ footer {
   align-items: center;
   font-family: "Montserrat", sans-serif;
   color: #4D4664;
+  margin-top: 10px;
 }
 footer .copyrights {
   margin: 10px 20px 5px 20px;

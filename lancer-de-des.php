@@ -83,10 +83,10 @@
         <div class="simulator">
             <?php
                 for ($i=0 ; $i<$nbdes ; $i++) {
-                    if ($_POST) { ?>
+                if ($_POST) { ?>
                     <div class='total'>
                         <span><?php echo $results[$i] ?></span>
-                        </div>
+                    </div>
             <?php
                     }
                 }
