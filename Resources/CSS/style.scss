@@ -8,7 +8,6 @@
     background-image: url(../images/wallpaper1.jpg);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .indexMain {
@@ -115,7 +114,6 @@
 }
 
 .simulator {
-    width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,8 +195,8 @@ input:hover {
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100px;
-            width: 400px;
+            height: 200px;
+            width: 300px;
             padding: 10px;
             border-radius: 20px;
             border: none;
@@ -213,7 +211,7 @@ input:hover {
             justify-content: center;
             align-items: center;
             height: 80px;
-            width: 400px;
+            width: 300px;
             padding: 10px;
             margin: 15px;
             border-radius: 20px;
@@ -231,16 +229,11 @@ input:hover {
 footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     font-family: 'Montserrat', sans-serif;
     color: $darkpurple;
-    margin-top: 10px;
-        .copyrights {
-            margin: 10px 20px 5px 20px;
-        }
+    margin: 10px 20px;
         .contact-details {
             display: flex;
-            margin: 10px 20px 5px 20px;
                 .mail, .phoneNumber {
                     display: flex;
                     margin: 0 40px;
@@ -251,10 +244,9 @@ footer {
                 }
         }
         .socials {
-            margin: 10px 20px 5px 20px;
-                a {
-                    color: $darkpurple;
-                    margin-left: 10px;
-                }
+            a {
+                color: $darkpurple;
+                margin-left: 10px;
+            }
         }
 }

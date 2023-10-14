@@ -1,17 +1,75 @@
 /***** COLORS *****/
+/********** RWD **********/
 @media all and (max-width: 930px) {
+  /***** FOOTER *****/
   footer .contact-details .mail, footer .contact-details .phoneNumber {
-    margin: 0 10px;
+    margin: 0 10px !important;
+  }
+  /***** DICE GAME *****/
+  .home-title-dice {
+    align-items: center !important;
+    padding-left: 0 !important;
+  }
+  .home-title-dice h1 {
+    font-size: 30px !important;
+  }
+}
+@media all and (max-width: 730px) {
+  /***** FOOTER *****/
+  footer {
+    flex-direction: column;
+  }
+  footer .copyrights {
+    margin-left: 10px;
+  }
+  footer .mail, footer .phoneNumber {
+    margin: 0 10px !important;
+  }
+  /***** DICE GAME *****/
+  .navDice ul {
+    justify-content: center !important;
+    padding-left: 0 !important;
+  }
+  .navDice a {
+    padding: 0 !important;
+  }
+  .tirage {
+    width: auto !important;
   }
 }
 @media all and (max-width: 620px) {
+  /***** INDEX *****/
   .indexMain .games {
     flex-direction: column;
+    margin: 0px !important;
+  }
+  /***** DICE GAME *****/
+  .navDice ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  /***** BALL GAME *****/
+  .question input {
+    height: 200px;
+    width: 300px;
+  }
+}
+@media all and (max-width: 550px) {
+  /***** DICE GAME *****/
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media all and (max-width: 400px) {
+  /***** INDEX *****/
   .indexBody .indexMain .home-title-index h1 {
-    font-size: 40px;
+    font-size: 30px;
+  }
+  /***** FOOTER *****/
+  footer .contact-details {
+    flex-direction: column;
   }
 }
 /***** INDEX *****/
@@ -19,7 +77,6 @@
   background-image: url(../images/wallpaper1.jpg);
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .indexMain {
@@ -145,7 +202,6 @@
 }
 
 .simulator {
-  width: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -236,8 +292,8 @@ input:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
-  width: 400px;
+  height: 200px;
+  width: 300px;
   padding: 10px;
   border-radius: 20px;
   border: none;
@@ -252,7 +308,7 @@ input:hover {
   justify-content: center;
   align-items: center;
   height: 80px;
-  width: 400px;
+  width: 300px;
   padding: 10px;
   margin: 15px;
   border-radius: 20px;
@@ -268,17 +324,12 @@ input:hover {
 footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   font-family: "Montserrat", sans-serif;
   color: #4D4664;
-  margin-top: 10px;
-}
-footer .copyrights {
-  margin: 10px 20px 5px 20px;
+  margin: 10px 20px;
 }
 footer .contact-details {
   display: flex;
-  margin: 10px 20px 5px 20px;
 }
 footer .contact-details .mail, footer .contact-details .phoneNumber {
   display: flex;
@@ -287,9 +338,6 @@ footer .contact-details .mail, footer .contact-details .phoneNumber {
 footer .contact-details .mail i, footer .contact-details .phoneNumber i {
   margin-top: 5px;
   margin-right: 10px;
-}
-footer .socials {
-  margin: 10px 20px 5px 20px;
 }
 footer .socials a {
   color: #4D4664;

@@ -101,7 +101,7 @@
 
         <div class="submitForm">
             <form action="lancer-de-des.php?faces=<?= $faces ?>" method="POST">
-                <label class="textForm" for="select">Choisissez le nombre de dés</label>
+                <label class="textForm" for="select" style="text-align: center;">Choisissez le nombre de dés</label>
                 <select name="nbdes" class="nombreDes">
                     <option value="1">1 dé</option>
                     <option value="2">2 dés</option>
