@@ -1,0 +1,22 @@
+
+@media all and (max-width:930px) {
+    footer .contact-details {
+        .mail, .phoneNumber {
+            margin: 0 10px;
+        }
+    }    
+}
+
+@media all and (max-width:620px) {
+    .indexMain .games {
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width:400px) {
+    .indexBody .indexMain {
+        .home-title-index h1 {
+            font-size: 40px;
+        }
+    }
+}

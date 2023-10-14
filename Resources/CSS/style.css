@@ -1,4 +1,19 @@
 /***** COLORS *****/
+@media all and (max-width: 930px) {
+  footer .contact-details .mail, footer .contact-details .phoneNumber {
+    margin: 0 10px;
+  }
+}
+@media all and (max-width: 620px) {
+  .indexMain .games {
+    flex-direction: column;
+  }
+}
+@media all and (max-width: 400px) {
+  .indexBody .indexMain .home-title-index h1 {
+    font-size: 40px;
+  }
+}
 /***** INDEX *****/
 .indexBody {
   background-image: url(../images/wallpaper1.jpg);
@@ -35,15 +50,15 @@
 .indexMain .games {
   display: flex;
   justify-content: center;
-  margin: 10px;
+  margin: 50px 0;
 }
 .indexMain .games .diceGame, .indexMain .games .ballGame {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
-  width: 300px;
-  margin: 50px;
+  height: 280px;
+  width: 280px;
+  margin: 20px;
   background-color: #f9e9fb;
   border-radius: 50%;
 }

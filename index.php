@@ -20,7 +20,7 @@
 <body class="indexBody">
 
 <header>
-    <nav class="navbar navbar-expand-md">
+    <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container-fluid">
             <div class="menu-bloc-left">
                 <a class="navbar-brand" href="index.php" style="color: #f9e9fb; font-size: 30px; font-family: 'Handlee', cursive;">Jeux de hasard</a>
