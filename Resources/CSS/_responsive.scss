@@ -2,44 +2,50 @@
 
 @media all and (max-width:930px) {
 
-/***** DICE GAME *****/
+    /***** DICE GAME *****/
 
     .home-title-dice {
         align-items: center !important;
         padding-left: 0 !important;
-            h1 {
-                font-size: 30px !important;
-            }
+
+        h1 {
+            font-size: 30px !important;
+        }
     }
-}    
+}
 
 @media all and (max-width:730px) {
 
-/***** FOOTER *****/
+    /***** FOOTER *****/
 
     footer {
         height: 20vh;
         flex-direction: column;
-            .copyrights {
-                margin-left: 10px;
-            }
-            .mail, .phoneNumber {
-                margin: 0 10px !important;
-            }
+
+        .copyrights {
+            margin-left: 10px;
+        }
+
+        .mail,
+        .phoneNumber {
+            margin: 0 10px !important;
+        }
     }
 
-/***** DICE GAME *****/
+    /***** DICE GAME *****/
 
     .navDice {
         ul {
             justify-content: center !important;
             padding-left: 0 !important;
         }
+
         a {
             padding: 0 !important;
         }
 
     }
+
     .tirage {
         width: auto !important;
     }
@@ -48,21 +54,21 @@
 
 @media all and (max-width:620px) {
 
-/***** INDEX *****/
+    /***** INDEX *****/
 
     .indexMain .games {
         flex-direction: column;
         margin: 0px !important;
     }
 
-/***** DICE GAME *****/
+    /***** DICE GAME *****/
 
     .navDice ul {
         flex-direction: column;
         align-items: center;
     }
 
-/***** BALL GAME *****/
+    /***** BALL GAME *****/
 
     .question input {
         height: 200px;
@@ -73,7 +79,7 @@
 
 @media all and (max-width:550px) {
 
-/***** DICE GAME *****/
+    /***** DICE GAME *****/
 
     form {
         display: flex;
@@ -84,7 +90,7 @@
 
 @media all and (max-width:400px) {
 
-/***** INDEX *****/
+    /***** INDEX *****/
 
     .indexBody .indexMain {
         .home-title-index h1 {
@@ -92,7 +98,7 @@
         }
     }
 
-/***** FOOTER *****/
+    /***** FOOTER *****/
 
     footer .contact-details {
         flex-direction: column;

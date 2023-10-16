@@ -108,7 +108,8 @@
   justify-content: center;
   margin: 100px 0;
 }
-.indexMain .games .diceGame, .indexMain .games .ballGame {
+.indexMain .games .diceGame,
+.indexMain .games .ballGame {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,14 +119,16 @@
   background-color: #f9e9fb;
   border-radius: 50%;
 }
-.indexMain .games .diceGame a, .indexMain .games .ballGame a {
+.indexMain .games .diceGame a,
+.indexMain .games .ballGame a {
   text-decoration: none;
   font-family: "Handlee", cursive;
   color: #4D4664;
   font-size: 40px;
   text-align: center;
 }
-.indexMain .games .diceGame a:hover, .indexMain .games .ballGame a:hover {
+.indexMain .games .diceGame a:hover,
+.indexMain .games .ballGame a:hover {
   color: #c382c8;
 }
 
@@ -357,11 +360,13 @@ footer {
 footer .contact-details {
   display: flex;
 }
-footer .contact-details .mail, footer .contact-details .phoneNumber {
+footer .contact-details .mail,
+footer .contact-details .phoneNumber {
   display: flex;
   margin: 0 40px;
 }
-footer .contact-details .mail i, footer .contact-details .phoneNumber i {
+footer .contact-details .mail i,
+footer .contact-details .phoneNumber i {
   margin-top: 5px;
   margin-right: 10px;
 }

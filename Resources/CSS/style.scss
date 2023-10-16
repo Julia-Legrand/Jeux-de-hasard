@@ -15,43 +15,51 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-        .home-title-index {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-                h1 {
-                    @include title1;
-                    margin: 50px
-                }
-                h2 {
-                    @include title2;
-                }
+
+    .home-title-index {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            @include title1;
+            margin: 50px
         }
-        .games {
+
+        h2 {
+            @include title2;
+        }
+    }
+
+    .games {
+        display: flex;
+        justify-content: center;
+        margin: 100px 0;
+
+        .diceGame,
+        .ballGame {
             display: flex;
             justify-content: center;
-            margin: 100px 0;
-                .diceGame, .ballGame {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    height: 280px;
-                    width: 280px;
-                    margin: 50px;
-                    background-color: $lightpurple;
-                    border-radius: 50%;
-                        a {
-                            text-decoration: none;
-                            font-family: 'Handlee', cursive;
-                            color: $darkpurple;
-                            font-size: 40px;
-                            text-align: center;
-                        }
-                        a:hover {
-                            color: $middlepurple;
-                        }
-                }
+            align-items: center;
+            height: 280px;
+            width: 280px;
+            margin: 50px;
+            background-color: $lightpurple;
+            border-radius: 50%;
+
+            a {
+                text-decoration: none;
+                font-family: 'Handlee', cursive;
+                color: $darkpurple;
+                font-size: 40px;
+                text-align: center;
+            }
+
+            a:hover {
+                color: $middlepurple;
+            }
         }
+    }
 }
 
 /***** DICE GAME *****/
@@ -69,13 +77,15 @@
     flex-direction: column;
     align-items: start;
     padding-left: 50px;
-        h1 {
-            @include title1;
-            margin: 50px 0;
-        }
-        h2 {
-            @include title2;
-        }
+
+    h1 {
+        @include title1;
+        margin: 50px 0;
+    }
+
+    h2 {
+        @include title2;
+    }
 }
 
 .navDice {
@@ -85,9 +95,11 @@
         margin: 40px 0;
         padding-left: 50px;
     }
+
     li {
         list-style: none;
     }
+
     a {
         text-decoration: none;
         margin: 10px;
@@ -96,6 +108,7 @@
         color: $lightpurple;
         font-size: 20px;
     }
+
     a:hover {
         border-radius: 10px;
         border: none;
@@ -111,9 +124,10 @@
     align-items: center;
     width: 800px;
     margin: 70px 0;
-        h2 {
-            @include title2;
-        }
+
+    h2 {
+        @include title2;
+    }
 }
 
 .simulator {
@@ -171,85 +185,95 @@ label {
     display: flex;
     flex-direction: column;
     align-items: center;
-        .home-title-ball {
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-                h1 {
-                    @include title1;
-                    margin: 50px
-                }
-                h2 {
-                    @include title2;
-                }
+
+    .home-title-ball {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            @include title1;
+            margin: 50px
         }
-        .form-ball {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: 46vh;
-            margin: 70px 0;
-                .input-ballGame {
-                    height: 100px;
-                    width: 600px;
-                    background-color:white;
-                    color: #4D4664;
-                    border-radius: 20px;
-                    border: none;
-                    font-family: 'Montserrat', sans-serif;
-                    font-size: 20px;
-                    margin: 30px;
-                    padding: 10px;
-                }
+
+        h2 {
+            @include title2;
         }
-        .submit {
-            display: flex;
-            justify-content: center;
-                .submit-ballGame {
-                    padding: 10px;
-                    border-radius: 20px;
-                    border: none;
-                    font-family: 'Montserrat', sans-serif;
-                    font-size: 20px;
-                    margin: 12px;
-                    background-color: $middlepurple;
-                    color: white;
-                }
+    }
+
+    .form-ball {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 46vh;
+        margin: 70px 0;
+
+        .input-ballGame {
+            height: 100px;
+            width: 600px;
+            background-color: white;
+            color: #4D4664;
+            border-radius: 20px;
+            border: none;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+            margin: 30px;
+            padding: 10px;
         }
-        .submit-ballGame:hover {
-            background-color: #c098c3;
-        }
-        .response {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 200px;
-            width: 300px;
+    }
+
+    .submit {
+        display: flex;
+        justify-content: center;
+
+        .submit-ballGame {
             padding: 10px;
             border-radius: 20px;
             border: none;
+            font-family: 'Montserrat', sans-serif;
             font-size: 20px;
-            text-align: center;
-            font-family: 'Handlee', cursive;
-            background-color:white;
-            color: #4D4664;
+            margin: 12px;
+            background-color: $middlepurple;
+            color: white;
         }
+    }
+
+    .submit-ballGame:hover {
+        background-color: #c098c3;
+    }
+
+    .response {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 300px;
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Handlee', cursive;
+        background-color: white;
+        color: #4D4664;
+    }
+
     .ifempty {
         display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100px;
-            width: 300px;
-            padding: 10px;
-            margin: 25px;
-            border-radius: 20px;
-            border: none;
-            font-size: 20px;
-            text-align: center;
-            font-family: 'Handlee', cursive;
-            background-color:white;
-            color: #4D4664;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        width: 300px;
+        padding: 10px;
+        margin: 25px;
+        border-radius: 20px;
+        border: none;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Handlee', cursive;
+        background-color: white;
+        color: #4D4664;
     }
 }
 
@@ -261,21 +285,27 @@ footer {
     font-family: 'Montserrat', sans-serif;
     color: $darkpurple;
     margin: 20px;
-        .contact-details {
+
+    .contact-details {
+        display: flex;
+
+        .mail,
+        .phoneNumber {
             display: flex;
-                .mail, .phoneNumber {
-                    display: flex;
-                    margin: 0 40px;
-                }
-                .mail i, .phoneNumber i {
-                    margin-top: 5px;
-                    margin-right: 10px;
-                }
+            margin: 0 40px;
         }
-        .socials {
-            a {
-                color: $darkpurple;
-                margin-left: 10px;
-            }
+
+        .mail i,
+        .phoneNumber i {
+            margin-top: 5px;
+            margin-right: 10px;
         }
+    }
+
+    .socials {
+        a {
+            color: $darkpurple;
+            margin-left: 10px;
+        }
+    }
 }
