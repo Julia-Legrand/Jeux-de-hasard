@@ -108,7 +108,7 @@
                     <option value="3">3 dés</option>
                 </select>
 
-                <input type="submit" value="Lancez le dé">
+                <input type="submit" value="Lancez le dé" class="input-submit">
             </form>
         </div>
     </section>

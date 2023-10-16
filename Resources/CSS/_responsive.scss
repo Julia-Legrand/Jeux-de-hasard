@@ -2,14 +2,6 @@
 
 @media all and (max-width:930px) {
 
-/***** FOOTER *****/
-
-    footer .contact-details {
-        .mail, .phoneNumber {
-            margin: 0 10px !important;
-        }
-    }
-    
 /***** DICE GAME *****/
 
     .home-title-dice {
@@ -26,6 +18,7 @@
 /***** FOOTER *****/
 
     footer {
+        height: 20vh;
         flex-direction: column;
             .copyrights {
                 margin-left: 10px;

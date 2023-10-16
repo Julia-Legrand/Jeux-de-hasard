@@ -62,10 +62,10 @@
     <section class="form-ball" id="form-ball">
         <form action="boule-magique.php" method="POST">
             <div class="question">
-                <input type="text" name="question" placeholder="Votre question" style="height: 100px; width: 600px; background-color:white; color: #4D4664">
+                <input type="text" name="question" placeholder="Votre question" class="input-ballGame">
             </div>
             <div class="submit">
-                <input type="submit" name="responses" value="Réponse">
+                <input type="submit" name="responses" value="Réponse" class="submit-ballGame">
             </div>
         </form>
         <?php

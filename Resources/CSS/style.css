@@ -1,10 +1,6 @@
 /***** COLORS *****/
 /********** RWD **********/
 @media all and (max-width: 930px) {
-  /***** FOOTER *****/
-  footer .contact-details .mail, footer .contact-details .phoneNumber {
-    margin: 0 10px !important;
-  }
   /***** DICE GAME *****/
   .home-title-dice {
     align-items: center !important;
@@ -17,6 +13,7 @@
 @media all and (max-width: 730px) {
   /***** FOOTER *****/
   footer {
+    height: 20vh;
     flex-direction: column;
   }
   footer .copyrights {
@@ -77,6 +74,7 @@
   background-image: url(../images/wallpaper1.jpg);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .indexMain {
@@ -96,6 +94,7 @@
   text-transform: uppercase;
   text-align: center;
   margin: 10px;
+  margin: 50px;
 }
 .indexMain .home-title-index h2 {
   font-family: "Handlee", cursive;
@@ -107,7 +106,7 @@
 .indexMain .games {
   display: flex;
   justify-content: center;
-  margin: 50px 0;
+  margin: 100px 0;
 }
 .indexMain .games .diceGame, .indexMain .games .ballGame {
   display: flex;
@@ -115,7 +114,7 @@
   align-items: center;
   height: 280px;
   width: 280px;
-  margin: 20px;
+  margin: 50px;
   background-color: #f9e9fb;
   border-radius: 50%;
 }
@@ -132,7 +131,7 @@
 
 /***** DICE GAME *****/
 .diceBody {
-  background-image: linear-gradient(rgba(41, 34, 49, 0.9), rgba(3, 2, 3, 0.1)), url(../images/wallpaper2.jpg);
+  background-image: linear-gradient(rgba(41, 34, 49, 0.9), rgba(3, 2, 3, 0)), url(../images/wallpaper2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -152,6 +151,7 @@
   text-transform: uppercase;
   text-align: center;
   margin: 10px;
+  margin: 50px 0;
 }
 .home-title-dice h2 {
   font-family: "Handlee", cursive;
@@ -164,7 +164,7 @@
 .navDice ul {
   display: flex;
   justify-content: start;
-  margin: 20px 0;
+  margin: 40px 0;
   padding-left: 50px;
 }
 .navDice li {
@@ -191,7 +191,7 @@
   justify-content: center;
   align-items: center;
   width: 800px;
-  margin-top: 10px;
+  margin: 70px 0;
 }
 .tirage h2 {
   font-family: "Handlee", cursive;
@@ -213,7 +213,7 @@
   font-size: 150px;
   border-radius: 20px;
   box-shadow: 5px 5px 5px rgb(67, 66, 66);
-  margin: 10px;
+  margin: 30px;
   height: 200px;
   width: 200px;
   display: flex;
@@ -228,7 +228,7 @@ label {
   padding: 10px;
 }
 
-input {
+.input-submit {
   padding: 10px;
   border-radius: 20px;
   border: none;
@@ -239,13 +239,13 @@ input {
   color: white;
 }
 
-input:hover {
+.input-submit:hover {
   background-color: #c098c3;
 }
 
 /***** BALL GAME *****/
 .ballBody {
-  background-image: linear-gradient(rgba(41, 34, 49, 0.9), rgba(3, 2, 3, 0.1)), url(../images/wallpaper3.jpg);
+  background-image: linear-gradient(rgba(41, 34, 49, 0.9), rgba(3, 2, 3, 0)), url(../images/wallpaper3.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -269,6 +269,7 @@ input:hover {
   text-transform: uppercase;
   text-align: center;
   margin: 10px;
+  margin: 50px;
 }
 .ballMain .home-title-ball h2 {
   font-family: "Handlee", cursive;
@@ -282,11 +283,36 @@ input:hover {
   flex-direction: column;
   align-items: center;
   height: 46vh;
-  margin: 50px 0;
+  margin: 70px 0;
+}
+.ballMain .form-ball .input-ballGame {
+  height: 100px;
+  width: 600px;
+  background-color: white;
+  color: #4D4664;
+  border-radius: 20px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  margin: 30px;
+  padding: 10px;
 }
 .ballMain .submit {
   display: flex;
   justify-content: center;
+}
+.ballMain .submit .submit-ballGame {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  margin: 12px;
+  background-color: #c382c8;
+  color: white;
+}
+.ballMain .submit-ballGame:hover {
+  background-color: #c098c3;
 }
 .ballMain .response {
   display: flex;
@@ -307,10 +333,10 @@ input:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  height: 100px;
   width: 300px;
   padding: 10px;
-  margin: 15px;
+  margin: 25px;
   border-radius: 20px;
   border: none;
   font-size: 20px;
@@ -326,7 +352,7 @@ footer {
   justify-content: space-between;
   font-family: "Montserrat", sans-serif;
   color: #4D4664;
-  margin: 10px 20px;
+  margin: 20px;
 }
 footer .contact-details {
   display: flex;
