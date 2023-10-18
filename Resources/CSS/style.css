@@ -9,6 +9,9 @@
   .home-title-dice h1 {
     font-size: 30px !important;
   }
+  footer .contact-details .mail, footer .contact-details .phoneNumber {
+    margin: 0 10px !important;
+  }
 }
 @media all and (max-width: 730px) {
   /***** BALL GAME *****/
@@ -40,7 +43,7 @@
     width: auto !important;
   }
 }
-@media all and (max-width: 620px) {
+@media all and (max-width: 630px) {
   /***** INDEX *****/
   .indexMain .games {
     flex-direction: column;
@@ -52,9 +55,8 @@
     align-items: center;
   }
   /***** BALL GAME *****/
-  .question input {
-    height: 200px;
-    width: 300px;
+  .ballMain .form-ball .input-ballGame {
+    width: 400px !important;
   }
 }
 @media all and (max-width: 550px) {
@@ -65,22 +67,26 @@
     align-items: center;
   }
 }
-@media all and (max-width: 400px) {
+@media all and (max-width: 420px) {
   /***** INDEX *****/
   .indexBody .indexMain .home-title-index h1 {
     font-size: 30px;
   }
   /***** BALL GAME *****/
-  .input-ballGame {
-    width: 280px;
-    margin: 10px;
+  .ballMain .form-ball {
+    margin: 40px 0 !important;
+  }
+  .ballMain .form-ball .input-ballGame {
+    width: 280px !important;
   }
   .response {
-    width: 280px;
+    width: 280px !important;
   }
   .ifempty {
-    width: 280px;
-    margin: 10px;
+    width: 280px !important;
+  }
+  footer .contact-details {
+    flex-direction: column;
   }
 }
 /***** INDEX *****/
@@ -207,7 +213,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 800px;
+  width: 600px;
   margin: 70px 0;
 }
 .tirage h2 {
@@ -286,7 +292,7 @@ label {
   text-transform: uppercase;
   text-align: center;
   margin: 10px;
-  margin: 50px;
+  margin: 50px 0;
 }
 .ballMain .home-title-ball h2 {
   font-family: "Handlee", cursive;
@@ -299,7 +305,6 @@ label {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 46vh;
   margin: 70px 0;
 }
 .ballMain .form-ball .input-ballGame {
@@ -311,7 +316,6 @@ label {
   border: none;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  margin: 30px;
   padding: 10px;
 }
 .ballMain .submit {
@@ -324,7 +328,7 @@ label {
   border: none;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  margin: 12px;
+  margin: 20px;
   background-color: #c382c8;
   color: white;
 }
@@ -353,7 +357,7 @@ label {
   height: 100px;
   width: 300px;
   padding: 10px;
-  margin: 25px;
+  margin: 25px 0px;
   border-radius: 20px;
   border: none;
   font-size: 20px;

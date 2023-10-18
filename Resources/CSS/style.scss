@@ -122,7 +122,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 800px;
+    width: 600px;
     margin: 70px 0;
 
     h2 {
@@ -194,7 +194,7 @@ label {
 
         h1 {
             @include title1;
-            margin: 50px
+            margin: 50px 0;
         }
 
         h2 {
@@ -206,7 +206,6 @@ label {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 46vh;
         margin: 70px 0;
 
         .input-ballGame {
@@ -218,7 +217,6 @@ label {
             border: none;
             font-family: 'Montserrat', sans-serif;
             font-size: 20px;
-            margin: 30px;
             padding: 10px;
         }
     }
@@ -233,7 +231,7 @@ label {
             border: none;
             font-family: 'Montserrat', sans-serif;
             font-size: 20px;
-            margin: 12px;
+            margin: 20px;
             background-color: $middlepurple;
             color: white;
         }
@@ -266,7 +264,7 @@ label {
         height: 100px;
         width: 300px;
         padding: 10px;
-        margin: 25px;
+        margin: 25px 0px;
         border-radius: 20px;
         border: none;
         font-size: 20px;

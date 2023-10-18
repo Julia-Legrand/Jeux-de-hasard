@@ -12,6 +12,9 @@
             font-size: 30px !important;
         }
     }
+    footer .contact-details .mail, footer .contact-details .phoneNumber {
+        margin: 0 10px !important;
+    }
 }
 
 @media all and (max-width:730px) {
@@ -55,7 +58,7 @@
     }
 }
 
-@media all and (max-width:620px) {
+@media all and (max-width:630px) {
 
     /***** INDEX *****/
 
@@ -73,9 +76,8 @@
 
     /***** BALL GAME *****/
 
-    .question input {
-        height: 200px;
-        width: 300px;
+    .ballMain .form-ball .input-ballGame {
+        width: 400px !important;
     }
 }
 
@@ -90,7 +92,7 @@
     }
 }
 
-@media all and (max-width:400px) {
+@media all and (max-width:420px) {
 
     /***** INDEX *****/
 
@@ -102,15 +104,20 @@
 
     /***** BALL GAME *****/
 
-    .input-ballGame {
-        width: 280px;
-        margin: 10px;
+    .ballMain .form-ball {
+        margin: 40px 0 !important;
+            .input-ballGame {
+                width: 280px !important;
+                }
     }
     .response {
-        width: 280px;
+        width: 280px !important;
     }
     .ifempty {
-        width: 280px;
-        margin: 10px;
+        width: 280px !important;
     }
+
+    footer .contact-details {
+        flex-direction: column;
+    }    
 }
