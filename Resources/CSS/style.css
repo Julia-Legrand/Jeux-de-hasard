@@ -11,15 +11,21 @@
   }
 }
 @media all and (max-width: 730px) {
+  /***** BALL GAME *****/
+  .input-ballGame {
+    width: 400px;
+    margin: 10px;
+  }
   /***** FOOTER *****/
   footer {
-    height: 20vh;
     flex-direction: column;
+    margin: 0;
   }
   footer .copyrights {
     margin-left: 10px;
   }
-  footer .mail, footer .phoneNumber {
+  footer .mail,
+  footer .phoneNumber {
     margin: 0 10px !important;
   }
   /***** DICE GAME *****/
@@ -64,9 +70,17 @@
   .indexBody .indexMain .home-title-index h1 {
     font-size: 30px;
   }
-  /***** FOOTER *****/
-  footer .contact-details {
-    flex-direction: column;
+  /***** BALL GAME *****/
+  .input-ballGame {
+    width: 280px;
+    margin: 10px;
+  }
+  .response {
+    width: 280px;
+  }
+  .ifempty {
+    width: 280px;
+    margin: 10px;
   }
 }
 /***** INDEX *****/
