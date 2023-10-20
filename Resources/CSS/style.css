@@ -278,6 +278,7 @@ label {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 82vh;
 }
 .ballMain .home-title-ball {
   text-align: center;
